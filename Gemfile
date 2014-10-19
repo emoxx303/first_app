@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3-p547'
+
 gem 'rails', '3.2.19'
 
 # Bundle edge Rails instead:
@@ -15,6 +17,7 @@ group :production do
 end
 
 gem 'heroku'
+gem 'rails_12factor'
 
 
 
